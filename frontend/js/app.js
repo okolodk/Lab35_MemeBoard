@@ -10,6 +10,10 @@ const btnAdd = document.getElementById("btnAdd");
 function renderMemes(memes) {
     
     loadingText.style.display = "none";
+
+    const memesCount = document.getElementById("memesCount");
+    memesCount.textContent = `Всего мемов: ${memes.length}`;
+
     if (memes.length === 0) {
         memesGrid.innerHTML = '<p class="empty-text">Мемов пока нет. Добавьте первый!</p>';
         return;

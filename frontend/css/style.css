@@ -186,3 +186,15 @@ main {
     grid-column: 1 / -1;
     font-size: 1rem;
 }
+
+.memes-count {
+    text-align: center;
+    color: #4a5568;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
